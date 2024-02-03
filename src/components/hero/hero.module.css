@@ -1,0 +1,81 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.texto1 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.hero_span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.wrapper.texto1 span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.texto2 {
+  padding-bottom: 35px;
+  padding-top: 35px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.caixa {
+  display: flex;
+  gap: 20px;
+}
+
+.aprenda {
+  color: #fff;
+  padding: 8px 50px;
+  border: 1px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #05c7f2 -0.8%, #6c69f7 98.5%);
+}
+
+.aprenda2 {
+  color: #fff;
+  padding: 8px 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.aprenda:hover{
+  color: black;
+  background: white;
+}
+
+.aprenda2:hover{
+  color: black;
+  background: #fff;
+}
+
+@media (max-width:600px){
+  .texto1{
+    font-size: 30px;
+  }
+  .hero_span{
+    font-size: 30px;
+  }
+  .texto2 {
+    font-size: 16px;
+  }
+}

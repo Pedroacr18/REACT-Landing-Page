@@ -1,0 +1,55 @@
+.section3 {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.fotoatomo {
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 187px;
+  height: 203px;
+}
+
+.sectionH2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 42px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.section3content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+  gap: 15px;
+}
+
+.aprenda3 {
+  color: #fff;
+  padding: 8px 50px;
+  border: 1px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #05c7f2 -0.8%, #6c69f7 98.5%);
+}
+
+.aprenda3:hover {
+  background: #ffffff;
+  color: black;
+}
+
+@media (max-width:600px){
+  .sectionH2{
+    font-size: 30px;
+  }
+  .fotoatomo{
+    width: 146px;
+    height: 158px;
+  }
+}
